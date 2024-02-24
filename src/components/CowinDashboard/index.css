@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 25px;
+  width: 25px;
+  color: #cbd5e1;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-family: Roboto;
+  color: #2cc6c6;
+  font-size: 16px;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #cbd5e1;
+  font-size: 24px;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-img {
+  height: 180px;
+  width: 150px;
+}
+
+.fail-text {
+  font-family: Bree Serif;
+  font-size: 24px;
+  color: #cbd5e1;
+  font-weight: 700;
+}
